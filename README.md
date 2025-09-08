@@ -14,7 +14,7 @@
 
 ```javascript
 const medsabbar = {
-    code: ["JavaScript", "Python", "Java", "TypeScript", "C++"],
+    code: ["Python", "Java", "TypeScript"],
     askMeAbout: ["web dev", "tech", "app dev", "software architecture"],
     technologies: {
         frontEnd: {
@@ -42,11 +42,9 @@ const medsabbar = {
 <div align="center">
 
 ### 💻 Languages
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 ### 🎨 Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -81,7 +79,6 @@ const medsabbar = {
 <div align="center">
   
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=medsabbar&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=medsabbar&layout=compact&theme=tokyonight"/>
 
 </div>
 
@@ -99,17 +96,7 @@ const medsabbar = {
 - 🌱 Learning **AI/ML** and exploring **cloud-native** architectures
 - 👯 Looking to collaborate on **open source projects** and **innovative solutions**
 - 🤔 Interested in **software architecture** and **system design**
-- 💬 Ask me about **web development**, **JavaScript**, **Python**, or **tech in general**
-
----
-
-## 🌟 Featured Projects
-
-<div align="center">
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=medsabbar&repo=medsabbar&theme=tokyonight)](https://github.com/medsabbar/medsabbar)
-
-</div>
+- 💬 Ask me about **web development**, **Python**, or **tech in general**
 
 ---
 
@@ -118,19 +105,6 @@ const medsabbar = {
 <div align="center">
   
 [![Mohamed's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=medsabbar&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/medsabbar)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/medsabbar)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@medsabbar.dev)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://medsabbar.dev)
 
 </div>
 
