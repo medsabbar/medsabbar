@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="mohamed sabbar — CTO at IBTIKAR Technologies. Building the web, one less-buggy app at a time.">
+  <title>mohamed sabbar — CTO at IBTIKAR Technologies. Building the web, one less-buggy app at a time.</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0b0f14"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#22d3ee" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- canvas -->
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#dots)"/>
+
+  <!-- left cyan accent bar -->
+  <rect x="0" y="0" width="6" height="320" fill="#22d3ee"/>
+
+  <!-- name: cyan shell prompt + off-white name -->
+  <text x="82" y="152" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="62" font-weight="700" letter-spacing="-1"><tspan fill="#22d3ee">❯ </tspan><tspan fill="#e6edf3">mohamed sabbar</tspan></text>
+
+  <!-- subline: role (muted) + handle (cyan, right-aligned) -->
+  <text x="118" y="194" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="22" font-weight="500" fill="#8b949e">CTO · IBTIKAR Technologies</text>
+  <text x="1198" y="194" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="22" font-weight="500" fill="#22d3ee">@medsabbar</text>
+
+  <!-- short cyan rule -->
+  <rect x="118" y="216" width="120" height="3" rx="1.5" fill="#22d3ee"/>
+
+  <!-- tagline -->
+  <text x="118" y="262" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="24" font-weight="400" fill="#c9d1d9">Building the web, one less-buggy app at a time.</text>
+
+  <!-- footer location (muted comment) -->
+  <text x="1198" y="296" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="15" font-weight="400" fill="#6e7681">// Nouakchott, Mauritania</text>
+</svg>
