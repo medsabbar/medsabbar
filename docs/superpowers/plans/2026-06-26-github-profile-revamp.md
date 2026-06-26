@@ -302,7 +302,7 @@ cat > package.json <<'EOF'
   "name": "medsabbar-profile",
   "private": true,
   "scripts": {
-    "lint": "markdownlint README.md docs/**/*.md"
+    "lint": "markdownlint README.md"
   },
   "devDependencies": {
     "markdownlint-cli": "^0.42.0"
@@ -339,7 +339,7 @@ Expected: completes with no errors. `node_modules/` and `package-lock.json` are 
 - [ ] **Step 4: Run the linter**
 
 Run: `npm run lint`
-Expected: exits 0. If it reports issues, fix them in `README.md` and re-run until it passes. The most likely issue is a stray `---` setext-style underline — convert to `###` if so.
+Expected: exits 0. The lint command targets `README.md` only — internal spec/plan documents in `docs/superpowers/` are out of scope for this lint and are not verified. If the linter reports issues, fix them in `README.md` and re-run until it passes. The most likely issue is a stray `---` setext-style underline — convert to `###` if so.
 
 - [ ] **Step 5: Add `node_modules/` to `.gitignore`**
 
