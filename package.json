@@ -1,0 +1,10 @@
+{
+  "name": "medsabbar-profile",
+  "private": true,
+  "scripts": {
+    "lint": "markdownlint README.md"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.42.0"
+  }
+}
