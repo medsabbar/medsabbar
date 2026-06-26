@@ -167,8 +167,8 @@ Behavior:
 1. Triggers on a daily cron at 06:00 UTC and on manual `workflow_dispatch`
 2. Checks out the repo
 3. Runs upstream Actions to generate two SVGs:
-   - `assets/stats.svg` using the `anuraghazra/github-readme-stats` GitHub Action (runs the generator locally in the workflow, not the public Vercel endpoint). Theme: `tokyonight` to match the current README's visual identity. Includes private commits so the count isn't artificially low.
-   - `assets/streak.svg` using `DenverCoder1/github-readme-streak-stats@v2` (has a first-class Actions path; the most reliable streak option). Theme: `tokyonight`.
+   - `assets/stats.svg` using `stats-organization/github-readme-stats-action@v2` (the official first-class Action wrapper around the `github-readme-stats` generator — the upstream `anuraghazra/github-readme-stats` project has no `action.yml` at the root, so it cannot be `uses:`'d directly). Theme: `tokyonight` to match the current README's visual identity. Includes private commits so the count isn't artificially low.
+   - `assets/streak.svg` using `DenverCoder1/github-readme-streak-stats@v1` (latest stable: v1.7.0, June 2026). Theme: `tokyonight`.
 4. Commits the SVGs back to the repo with `[skip ci]` in the commit message to avoid recursive triggers
 5. Pushes using the default `GITHUB_TOKEN` with `contents: write` — no PAT required
 

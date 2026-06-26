@@ -6,7 +6,7 @@
 
 **Architecture:** Three files in this repo — `README.md` (the profile), `assets/banner.svg` (the hero), `.github/workflows/stats.yml` (the regenerator). The workflow runs daily, produces two committed SVGs (`assets/stats.svg`, `assets/streak.svg`), and the README references only those committed assets and the company GitHub link. No third-party hosts.
 
-**Tech Stack:** GitHub-flavored Markdown, hand-authored SVG, GitHub Actions (YAML), `anuraghazra/github-readme-stats` action, `DenverCoder1/github-readme-streak-stats@v2` action, `markdownlint-cli` for verification.
+**Tech Stack:** GitHub-flavored Markdown, hand-authored SVG, GitHub Actions (YAML), `stats-organization/github-readme-stats-action@v2`, `DenverCoder1/github-readme-streak-stats@v1`, `markdownlint-cli` for verification.
 
 ---
 
@@ -237,21 +237,19 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate stats card
-        uses: anuraghazra/github-readme-stats@master
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          username: medsabbar
-          theme: tokyonight
-          show_icons: true
-          include_all_commits: true
-          count_private: true
-          save_path: assets/stats.svg
+          card: stats
+          options: username=medsabbar&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true
+          path: assets/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate streak card
-        uses: DenverCoder1/github-readme-streak-stats@v2
+        uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          theme: tokyonight
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          options: theme=tokyonight
+          path: assets/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit regenerated SVGs
         run: |
