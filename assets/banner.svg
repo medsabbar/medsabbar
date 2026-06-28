@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="mohamed sabbar — CTO at IBTIKAR Technologies. Building the web, one less-buggy app at a time.">
-  <title>mohamed sabbar — CTO at IBTIKAR Technologies. Building the web, one less-buggy app at a time.</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="mohamed sabbar — CTO at IBTIKAR Technologies. Building the digital public infrastructure Mauritania runs on.">
+  <title>mohamed sabbar — CTO at IBTIKAR Technologies. Building the digital public infrastructure Mauritania runs on.</title>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -29,7 +29,7 @@
   <rect x="118" y="216" width="120" height="3" rx="1.5" fill="#22d3ee"/>
 
   <!-- tagline -->
-  <text x="118" y="262" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="24" font-weight="400" fill="#c9d1d9">Building the web, one less-buggy app at a time.</text>
+  <text x="118" y="262" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="24" font-weight="400" fill="#c9d1d9">Building the digital public infrastructure Mauritania runs on.</text>
 
   <!-- footer location (muted comment) -->
   <text x="1198" y="296" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="15" font-weight="400" fill="#6e7681">// Nouakchott, Mauritania</text>
